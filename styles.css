@@ -1,2 +1,18 @@
+#ss{
+    border:1px solid #d0d7de;
+	border-collapse: collapse; 
+}
+.s{
+	border:1px solid #d0d7de;
+	padding:15px;
+	text-decoration:thick;
+}
+.sss{
+	border:1px solid #d0d7de;
+	padding:15px;
+	background-color:#f6f8fa;
+	text-decoration:thick;
+}
 
-/* Your CSS Code here. */
+	
+	
