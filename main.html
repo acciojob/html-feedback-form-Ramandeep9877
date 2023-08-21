@@ -8,43 +8,21 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<table id='ss'>
-	<tr>
-		<th class='s'>Element</th>
-		<th class='s'>ID</th>
-		<th class='s'>Type</th>
-		<th class='s'>Attributes</th>
-		<th class='s'>Label Required</th>
-	</tr><br>
-	<tr>
-       <td class='sss'>Name</td>
-	   <td class='sss'>name</td>
-       <td class='sss'>Text</td>
-	   <td class='sss'>minlength="3",maxlength="50", required
-	   </td>
-		<td class='sss'>Yes</td></tr><br>
-	<tr>
-       <td class='s'>Portfolio</td>
-	   <td class='s'>portfolio</td>
-       <td class='s'>URL</td>
-	   <td class='s'>requires</td>
-		<td class='s'>Yes</td></tr><br>
-	<tr>
-       <td class='sss'>Favorite Color</td>
-	   <td class='sss'>favColor</td>
-       <td class='sss'>Color</td>
-	   <td class='sss'>N/A</td>
-		<td class='sss'>Yes</td></tr><br>
-	<tr>
-       <td class='s'>Likeness</td>
-	   <td class='s'>likeness</td>
-       <td class='s'>Range</td>
-	   <td class='s'>min="1",max="100"</td>
-		<td class='s'>Yes</td></tr><br>
-	</table>
+	<h1>Feedback Form</h1>
+<form>
+  <label for="name">Name</label><br>
+  <input type="text" id="name" minlength="3" maxlength="50"><br>
 
+  <label for="portfolio">Portfolio</label><br>
+  <input type="url" id="portfolio""><br>
 
-		
+  <label for="favColor">Favorite Color</label>
+  <input type="color" id="favColor"><br>
+
+  <label for="likeness">Likeness</label>
+  <input type="range" id="likeness" min="1" max="100"><br>
+  <input type="button" value="POST">
+</form>
 
     <script type="text/javascript" src="./script.js">
 </script>
